@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Agent</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="update">Aggiorna</string>
+    <string name="title_activity_update_customers">Aggiornamento clienti</string>
+    <string name="please_wait">Attendere prego</string>
+    <string name="test_url">http://192.168.56.1:5000/api/v1.0</string>
+</resources>
