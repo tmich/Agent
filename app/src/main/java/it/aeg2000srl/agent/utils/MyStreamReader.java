@@ -1,4 +1,4 @@
-package utils;
+package it.aeg2000srl.agent.utils;
 
 import java.io.BufferedReader;
 import java.io.IOException;

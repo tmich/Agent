@@ -25,7 +25,7 @@ import java.util.List;
 
 
 import it.aeg2000srl.agent.core.TCustomer;
-import utils.MyStreamReader;
+import it.aeg2000srl.agent.utils.MyStreamReader;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -40,6 +40,9 @@ public class MainActivity extends AppCompatActivity {
 
         customersList = (ListView)findViewById(R.id.listCustomers);
         customersList.setEmptyView(findViewById(R.id.empty_list));
+
+        showMessage("This device is not compatible with this version of the app.");
+        finish();
     }
 
     @Override
